@@ -116,6 +116,14 @@
   list-style: none;
 }
 
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: space-around;
+  align-items: center;
+  list-style: none;
+}
+
 .footer {
   grid-column: 1 / -1;
 }
