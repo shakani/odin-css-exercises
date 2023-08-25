@@ -107,6 +107,11 @@
   grid-template-columns: 1fr 4fr;
 }
 
+.header .menu ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .footer {
   grid-column: 1 / -1;
 }
