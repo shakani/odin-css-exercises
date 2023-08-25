@@ -21,12 +21,17 @@
 .header {
   background-color: #393f4d;
   grid-column: 1 / -1;
+  grid-row: 1;
+
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
 
 
 .menu ul,
 .menu li {
   font-size: 16px;
+  list-style: none;
 }
 
 .sidebar {
