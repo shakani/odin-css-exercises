@@ -13,24 +13,16 @@
   font-family: Helvetica;
   font-weight: bold;
   color: white;
-
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  gap: 4px;
 }
 
 .header {
   background-color: #393f4d;
-  grid-column: 1 / -1;
-
-  display: grid;
-  grid-template-columns: 1fr 4fr;
 }
+
 
 .menu ul,
 .menu li {
   font-size: 16px;
-  list-style: none;
 }
 
 .sidebar {
@@ -56,6 +48,7 @@
 .nav {
   background-color: #C50208;
 }
+
 
 .nav ul li {
   font-size: 16px;
@@ -92,7 +85,6 @@
 
 .footer {
   background-color: #393f4d;
-  grid-column: 1 / -1;
 }
 
 .footer p {
