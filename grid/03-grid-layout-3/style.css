@@ -124,6 +124,10 @@
   gap: 50px;
 }
 
+.article {
+  display: grid;
+  gap: 15px;
+}
 
 .nav ul {
   display: grid;
