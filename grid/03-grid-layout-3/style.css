@@ -105,11 +105,15 @@
 
   display: grid;
   grid-template-columns: 1fr 4fr;
+  justify-items: space-around;
+  align-items: center;
+  /* align-content: center; */
 }
 
 .header .menu ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  list-style: none;
 }
 
 .footer {
