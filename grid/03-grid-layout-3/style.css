@@ -144,6 +144,10 @@
   height: 200px;
 }
 
+.card p {
+  padding: 5px;
+}
+
 .nav {
   grid-column: 2;
 }
