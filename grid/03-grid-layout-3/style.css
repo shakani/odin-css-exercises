@@ -91,3 +91,11 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+/* Additions */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
+}
